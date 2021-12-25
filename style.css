@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upperbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42 40 64);
+}
+.upperbar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.upperbar ul li{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.upperbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 18px;
+}
+#home{
+    background: url('img (2).jpg');
+    color: rgb(12 55 127);
+    height: 100vh;
+    width: 100%;
+    font-size: 80px;
+    font-family: 'Pushster', cursive;
+}
+.main{
+    text-align: center;
+}
+.headings{
+    font-size: 60px;
+    text-align: center;
+    padding: 1%;
+}
+#about{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 241, 238);
+    padding: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#aboutpara{
+    font-size: 20px;
+        word-spacing: 15px;
+        padding: 15px;
+        display: block;
+}
+#hobby{
+    background-color: rgb(240, 241, 238);
+}
+.items{
+    border: 3px solid rgb(133, 24, 24);
+    margin: 12px 3px;
+    padding: 12px 3px;
+    border-radius: 30px;
+    font-size: 20px;
+    word-spacing: 15px;
+    font-weight:normal;
+}
+#chess{
+    background-color: cadetblue;
+    padding: 20px;
+}
+#cricket{
+background-color: burlywood;
+padding: 20px;}
+#movies{
+    background-color: darkolivegreen;
+    padding: 20px;
+}
+#songs{
+background-color: darksalmon;
+padding: 20px;}
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(43, 34, 34);
+    color: white;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#send{
+    padding: 3px;
+    font-size: 20px;
+}
+#send:hover{
+    cursor:pointer;
+}
+#social {
+    justify-content: center;
+    display: flex;
+  }
+  .row{
+      padding: 1%;
+  }
