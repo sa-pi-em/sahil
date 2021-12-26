@@ -1,5 +1,5 @@
 const textDisplay = document.getElementById('text')
-const phrases = ['Hello', 'नमस्ते', 'Hola', 'Bonjour', 'Guten Tag', 'こんにちは']
+const phrases = ['Hello', 'नमस्ते', 'Hola', 'Bonjour', 'Guten Tag', 'こんにちは', '안녕하세요']
 let i = 0
 let j = 0
 let currentPhrase = []
