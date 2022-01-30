@@ -54,10 +54,13 @@
     right: 285px;
     top: 20px;
 }
-#registerbutton{
+#loginbutton a{
     font-size: 18px;
     font-family: "Larsseit";
-    color: black;
+    color: white;
+    text-decoration: none;
+}
+#registerbutton{
     background-color: #19D2A6;
     height: 38px;
     width: 110px;
@@ -68,6 +71,12 @@
     right: 156px;
     border: 0.8px solid #19D2A6;
 }
+#registerbutton a{
+    font-size: 18px;
+    font-family: "Larsseit";
+    color: black;
+    text-decoration: none;
+}
 .main{
     background-color: black;
     position: relative;
@@ -76,7 +85,7 @@
     background-color: black;
     position: absolute;
     padding-left: 150px;
-    padding-right: 156px;
+    padding-right: 150px;
     padding-top: 45px;
 }
 .div2{
@@ -112,11 +121,10 @@
     padding-top: 20px;
 }
 #registerforsppbutton{
-    font-size: 18px;
     font-family: "Larsseit";
     color: black;
     background-color: #19D2A6;
-    width: 263.12px;
+    width: 250px;
     height: 51.78px;
     padding: 10px,20px;
     border: 0.8px solid #19D2A6;
@@ -124,6 +132,12 @@
 
     font-weight: 500;
     font-size: 23.0585px;
+}
+#registerforsppbutton a{
+    font-size: 24px;
+    font-family: "Larsseit";
+    color: black;
+    text-decoration: none;
 }
 .div3{
     padding-top: 60px;
